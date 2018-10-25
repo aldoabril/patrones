@@ -9,14 +9,7 @@ package com.cajapaita.simudock;
  *
  * @author aldo_
  */
-public class PatoColorado extends Pato implements Volar{
-    @Override
-    public void mostrar(){
-        System.out.println("Soy un pato colorado");
-    };
+public interface Graznar {
+    public void graznar();
     
-    @Override
-    public void volar(){
-        System.out.println("Volar bajo!");
-    }
 }

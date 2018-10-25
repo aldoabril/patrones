@@ -9,6 +9,11 @@ package com.cajapaita.simudock;
  *
  * @author aldo_
  */
-public interface IVolar {
-    public void volar();
+public class ImplGraznar implements Graznar{
+
+    @Override
+    public void graznar() {
+        System.out.println("Implementación de graznar");    
+    }
+    
 }

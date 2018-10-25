@@ -9,11 +9,6 @@ package com.cajapaita.simudock;
  *
  * @author aldo_
  */
-public class PatoDomestico extends Pato implements Volar{
-
-    @Override
-    public void volar() {
-        System.out.println("Vuela bajo");   
-    }
-    
+public interface Volar {
+    public void volar();
 }
